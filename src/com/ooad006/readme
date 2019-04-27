@@ -1,0 +1,9 @@
+需求变更：
+1、增加新的乐器 -> 曼陀林
+
+想法：
+1、由于吉他和曼陀林都是乐器，并且与吉他有共同的特性，所以新增一个抽象类Instrument
+2、新增抽象类InstrumentSpec，将GuitarSpec和MandolinSpec的共性抽取到此类中
+3、新增Style枚举类，MandolinSpec专用
+4、修改Inventory类的方法，将返回类型改为了Instrument，新增search(MandolinSpec)方法
+5、新增MandolinSpec类，Mandolin类

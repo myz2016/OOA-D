@@ -1,0 +1,5 @@
+引入了枚举类，将Guitar类的 builder、type、backwood、topwood都变成了
+枚举类。
+领悟点：如果一个类的某些属性，有特定的值，就可以将这些特定值定义为一个
+枚举类、backwood和topwood都是属于wood,所以可以都使用枚举类Wood。这
+样做的话，比参数都使用String要好的多。
